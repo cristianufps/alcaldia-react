@@ -1,0 +1,23 @@
+.citizens-block{
+    background-color: #215A9A;
+    color: white;
+}
+
+.citizens-block h2{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.item{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.block-container{
+    display: grid;
+}
+
+.icon_description{
+    padding-top: 20px;
+}
