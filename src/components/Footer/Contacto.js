@@ -30,15 +30,15 @@ class Contacto extends React.Component{
                                     </div>
                                     <div className="info clock">
                                         <span class="icon"><FaClock color="#66A9F4" fontSize="1.250em"/></span>
-                                        <a href="#"> Atención al ciudadano </a>
+                                        <a> Atención al ciudadano </a>
                                     </div>
                                     <div className="info directory">
                                         <span class="icon"><FaInfoCircle color="#66A9F4" fontSize="1.250em"/></span>
-                                        <a href="#">Directorio dependencias</a>
+                                        <a>Directorio dependencias</a>
                                     </div>
                                     <div className="info directory">
                                         <span class="icon"><FaInfoCircle color="#66A9F4" fontSize="1.250em"/></span>
-                                        <a href="#" title=""><span>NIT: </span>00000000 </a>
+                                        <a><span>NIT: </span>00000000 </a>
                                     </div>
                                 </div>
                                 <div className="info-container2 col-md-6 ">
@@ -52,13 +52,12 @@ class Contacto extends React.Component{
                                     </div>
                                     <div className="info email">
                                         <span class="icon"><FaRegEnvelope color="#66A9F4" fontSize="1.250em"/></span>
-                                        <span>Email:</span> <a href=""
-                                            title="">contactenos@example.gov.co</a>
+                                        <span>Email:</span> <a>contactenos@example.gov.co</a>
                                     </div>
 
                                     <div className="info email">
                                         <span class="icon"><FaRegEnvelope color="#66A9F4" fontSize="1.250em"/></span>
-                                        <a href="#" title=""><span>Notificaciones Judiciales:</span>
+                                        <a><span>Notificaciones Judiciales:</span>
                                             notificacionesjudiciales@example.gov.co</a>
                                     </div>    
                                 </div>
