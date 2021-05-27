@@ -1,5 +1,5 @@
-.card{
-    width: 20rem;
+.news-card .card{
+    width: 21rem;
     border: none;
 }
 
@@ -11,4 +11,14 @@
     text-align: right;
     padding-bottom: 3px;
     padding-top: 3px;
+}
+
+.button_view_more{
+    text-align: end;
+    padding-bottom: 12px;
+}
+
+.new-tittle{
+    font-size: 1.50em;
+    text-align: center;
 }

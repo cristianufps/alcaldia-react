@@ -1,7 +1,10 @@
-.notice img {
-    width: 350px;
-    height: 200px;
-    min-height: intrinsic;
+.proyect-card img {
+    height: 15rem;
+ }
+
+ .proyect-card .card{
+   width: 21rem;
+   border:none;
  }
 
  .center_tittle{
@@ -10,10 +13,8 @@
  }
 
  .center_description{
-    display: block;
     margin-bottom: 20px;
     padding: 0 15px;
-    text-align: center;
     color: rgba(255,255,255,.75);
     font-size: 16px;
  }
