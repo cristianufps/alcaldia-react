@@ -10,11 +10,11 @@ class Noticias extends React.Component{
                     <div className="row">
                         <h2 className="section_tittles">Noticias</h2>    
                     </div>
-                    <div className="row">
+                    <div className="row ">
                     {
                         noticias.map((noticia) => (
-                            <div key={noticia.id} className="news-card col-md-4">
-                                <div className="card text-center">
+                            <div key={noticia.id} className="news-card col-sm-12 col-md-6 col-lg-4">
+                                <div className="card ">
                                     <img className="card-img-top" src={noticia.image} alt="Card image cap"/>
                                         <div className="card-body dark-back">
                                             <h5 className="new-title">{noticia.tittle}</h5>
