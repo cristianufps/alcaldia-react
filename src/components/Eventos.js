@@ -14,7 +14,7 @@ class Eventos extends React.Component{
                     <div className="row">
                     {
                         eventos.map((evento) => (
-                            <div key={evento.id} className="col-md-4 item">
+                            <div key={evento.id} className="col-lg-4 item">
                                 <span class="image mediaPosition">
                                     <img src={imagen}/>
                                 </span>

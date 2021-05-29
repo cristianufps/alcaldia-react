@@ -1,8 +1,6 @@
 .image img {
-    width: auto;
-    min-width: 350px;
-    height: 350px;
-    min-height: intrinsic;
+    min-width: 45vh;
+    height: 40vh;
  }
 
  .date {
