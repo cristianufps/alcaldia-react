@@ -12,6 +12,6 @@
 }
 
 .nav-link:hover{
-    color: #FFFFFF !;
+    color: #FFFFFF !important;
     background: #215A9A;
 }

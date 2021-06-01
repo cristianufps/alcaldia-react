@@ -14,14 +14,16 @@ class Eventos extends React.Component{
                     <div className="row">
                     {
                         eventos.map((evento) => (
-                            <div key={evento.id} className="col-lg-4 item">
-                                <span class="image mediaPosition">
+                            <div key={evento.id} className="col-md-6 col-lg-4 item">
+                                <div class="image mediaPosition">
                                     <img src={imagen}/>
-                                </span>
-                                <span class="title titlePosition">{evento.tittle}</span>
-                                <div class="date datePosition">
-                                    <span class="day">{evento.dia}</span>
-                                    <span class="month">{evento.mes}</span>
+                                </div>
+                                <div class="description-img d-flex align-items-center flex-row-reverse">
+                                    <span class="title titlePosition">{evento.tittle}</span>
+                                    <div class="date datePosition">
+                                        <span class="day">{evento.dia}</span>
+                                        <span class="month">{evento.mes}</span>
+                                    </div>
                                 </div>
                             </div>
                         ))

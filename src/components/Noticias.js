@@ -26,7 +26,7 @@ class Noticias extends React.Component{
                     }
                     </div>
                     <div className="button_view_more">
-                        <a className="btn btn-secondary">Ver más</a>
+                        <a className="btn btn-light">Ver más</a>
                     </div>
                 </div>
             </div>   

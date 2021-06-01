@@ -13,8 +13,8 @@ class Proyecto extends React.Component{
                     <div className="row">
                     {
                          planes.map((plan) => (
-                            <div key={plan.id} className="proyect-card col-md-4">
-                                <div className="card">
+                            <div key={plan.id} className="center-frame proyect-card col-md-6 col-lg-4">
+                                <div className="card card2">
                                     <img className="card-img-top" src={plan.image} alt="Card image cap"/>
                                         <div className="card-body dark-back text-center">
                                             <h5 className="center_tittle">{plan.tittle}</h5>
@@ -26,7 +26,7 @@ class Proyecto extends React.Component{
                     }
                     </div>
                     <div className="button_view_more">
-                        <a className="btn btn-secondary">Ver más</a>
+                        <a className="btn btn-light">Ver más</a>
                     </div>
                     {/*  {   planes.map((plan) => (
                             <div key={plan.id} className="col-md-6">

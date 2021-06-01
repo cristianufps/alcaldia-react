@@ -17,15 +17,15 @@ class Tramites extends React.Component{
                         <div id="service-list">
                             <ul class="nav justify-content-center">
                                 <li class="nav-item text-center">
-                                    <span className="service-icon"><FaCalculator color="#215A9A" fontSize="4em"></FaCalculator></span>
+                                    <span className="mb-2 service-icon flex justify-center"><FaCalculator color="#215A9A" fontSize="4em"></FaCalculator></span>
                                     <a class="nav-link" href="#">Impuestos</a>
                                 </li>
                                 <li class="nav-item text-center">
-                                    <span className="service-icon"><FaHome color="#215A9A" fontSize="4em"></FaHome></span>
+                                    <span className="mb-2 service-icon flex justify-center"><FaHome color="#215A9A" fontSize="4em"></FaHome></span>
                                     <a class="nav-link" href="#">Catastro</a>
                                 </li>
                                 <li class="nav-item text-center">
-                                    <span className="service-icon"><FaCar color="#215A9A" fontSize="4em"></FaCar></span>
+                                    <span className="mb-2 service-icon flex justify-center"><FaCar color="#215A9A" fontSize="4em"></FaCar></span>
                                     <a class="nav-link" href="#">Movilidad</a>
                                 </li>
                             </ul>
