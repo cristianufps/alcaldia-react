@@ -13,12 +13,12 @@
 	float: left;
 }
 
-.btn-default{
+.btn .btn-subs{
     width: fit-content; 
     padding-top: 10px;
     color: #FFFFFF;
 	font-size: 1.125em;
-	background: #00AEEF;
+	background-color: #00AEEF;
 	height: 50px;
 	padding: 6px 60px;
 	display: block;

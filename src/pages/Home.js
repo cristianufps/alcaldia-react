@@ -8,8 +8,6 @@ import Redes from '../components/Redes';
 import Noticia from '../components/Noticias';
 import Tramites from '../components/Tramites';
 import Banner from '../components/Banner';
-import Cards from '../components/Cards';
-import CardEvento from '../components/CardEvento';
 class Home extends React.Component{
     render(){
         return(
@@ -21,8 +19,6 @@ class Home extends React.Component{
                 <Proyecto></Proyecto>
                 <Eventos></Eventos>
                 <ItemsParticipacion></ItemsParticipacion>
-                <Cards></Cards>
-                <CardEvento></CardEvento>
             </div>
         );
     }

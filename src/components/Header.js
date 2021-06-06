@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './styles/Header.css';
+import { Link } from 'react-router-dom';
 import logoAlcaldia from '../images/escudo.png';
 import { FaHome } from "react-icons/fa";
 class Header extends React.Component{
@@ -27,7 +28,7 @@ class Header extends React.Component{
                                     <a className="nav-link" href="#">Servicios</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Que Hacer</a>
+                                    <Link to="/QueHacer" className="nav-link" href="#">Que Hacer</Link>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="#">Noticias</a>

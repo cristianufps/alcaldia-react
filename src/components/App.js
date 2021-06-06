@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Layout from './Layout';
 import NotFound from '../pages/NotFound';
 import Home from '../pages/Home';
-import Galeria from '../pages/Galeria';
+import WhatToDo from '../pages/WhatToDo';
 
 function App(){
     return (
@@ -12,7 +12,7 @@ function App(){
             <Layout>
                 <Switch>
                     <Route exact path='/' component={Home}/>
-                    <Route exact path='/galeria' component={Galeria}/>
+                    <Route exact path='/QueHacer' component={WhatToDo}/>
                     <Route component={NotFound}/>
                 </Switch>
             </Layout>

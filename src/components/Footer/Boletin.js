@@ -16,8 +16,7 @@ class Boletin extends React.Component{
                 </div>
 
                 <div className="form-group">
-                    <a type="button" className="btn btn-default" 
-                    >Suscribirme</a>
+                    <a type="button" className="btn btn-subs">Suscribirme</a>
                     <a className="desubscribirse">Desubscribirse</a>
                 </div>
             </div>

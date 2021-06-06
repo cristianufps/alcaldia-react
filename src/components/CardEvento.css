@@ -2,8 +2,7 @@
     padding-top: 2%;
     }
 
-    .card{
-        
+    .card{    
         padding-left: 2rem 0 !important;
         padding-right: 2rem 0 !important;
         border: none;
@@ -24,9 +23,7 @@
     
     .card-img-t {
         height: 16rem;
-        width: 100%;
-        
-        
+        width: 100%;   
       }
       
       .enc_imagen {
@@ -109,10 +106,8 @@
     .card {
         border: 1px solid #a0a0a0;
         margin-bottom: 20px;
-        height: auto;
-       
+        height: auto;      
         /*min-height: 464px;*/
-        
     }
 
     .card:hover{

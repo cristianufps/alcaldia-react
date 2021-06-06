@@ -35,7 +35,7 @@ class ItemsParticipacion extends React.Component{
                     {
                         items.map((item) => (
                             <div key={item.id} className="item2">
-                                <div className="block-container">
+                                <div className="block-container"> 
                                     <span className="d-block">  
                                     <FaEye color="white" fontSize="4em"/>
                                     </span>
