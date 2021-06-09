@@ -15,11 +15,13 @@ class Proyecto extends React.Component{
                          planes.map((plan) => (
                             <div key={plan.id} className="center-frame proyect-card col-md-6 col-lg-4">
                                 <div className="card card2">
-                                    <img className="card-img-top" src={plan.image} alt="Card image cap"/>
-                                        <div className="card-body dark-back text-center">
-                                            <h5 className="center_tittle">{plan.tittle}</h5>
-                                            <span className="center_description">{plan.description}</span>
-                                        </div>
+                                    <div className="overflow">
+                                        <img className="card-img-top" src={plan.image} alt="Card image cap"/>
+                                    </div>
+                                    <div className="card-body dark-back text-center">
+                                        <h5 className="center_tittle">{plan.tittle}</h5>
+                                        <span className="center_description">{plan.description}</span>
+                                    </div>
                                 </div>
                             </div>
                         ))

@@ -112,3 +112,13 @@
     -moz-transition: all 0.25s;
     -webkit-transition: all 0.25s;
 }
+
+.flex-all-center{
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+}
+
+.icon33{
+	padding: 0px !important;
+}

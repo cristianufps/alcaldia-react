@@ -25,23 +25,23 @@ class Copyright extends React.Component{
                                     <span>Síguenos en:</span>
                                 </li>
                                 <li className="facebook">
-                                    <a>
-                                        <span class="icon fa"><FaFacebookF/></span>
+                                    <a className="flex-all-center">
+                                        <span class="icon icon33 fa"><FaFacebookF/></span>
                                     </a>
                                 </li>
                                 <li className="twitter">
-                                    <a>
-                                        <span class="icon fa"><FaTwitter/></span>
+                                    <a className="flex-all-center">
+                                        <span class="icon icon33 fa"><FaTwitter/></span>
                                     </a>
                                 </li>
                                 <li className="youTube">
-                                    <a>
-                                        <span class="icon fa"><FaYoutube/></span>
+                                    <a className="flex-all-center">
+                                        <span class="icon icon33 fa"><FaYoutube/></span>
                                     </a>
                                 </li>
                                 <li className="instagram">
-                                    <a>
-                                        <span class="icon fa"><FaInstagram/></span>
+                                    <a className="flex-all-center">
+                                        <span class="icon icon33 fa"><FaInstagram/></span>
                                     </a>
                                 </li>
                             </ul>

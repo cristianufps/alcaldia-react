@@ -15,7 +15,9 @@ class Noticias extends React.Component{
                         noticias.map((noticia) => (
                             <div key={noticia.id} className="news-card col-sm-12 col-md-6 col-lg-4">
                                 <div className="card ">
+                                    <div className="overflow">
                                     <img className="card-img-top" src={noticia.image} alt="Card image cap"/>
+                                    </div>
                                         <div className="card-body dark-back">
                                             <h5 className="new-title">{noticia.tittle}</h5>
                                             <p className="light-back">{noticia.fecha}</p>

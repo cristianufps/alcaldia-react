@@ -18,7 +18,7 @@ class Header extends React.Component{
                 </nav>
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
                     <div className="container-fluid">
-                        <a className="navbar-brand" href="#"><FaHome></FaHome></a>
+                        <Link to="/Home" className="navbar-brand" ><FaHome></FaHome></Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
@@ -35,6 +35,9 @@ class Header extends React.Component{
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="#">Noticias</a>
+                                </li>
+                                <li className="nav-item">
+                                    <Link to="/Transparencia" className="nav-link" href="#">Transparencia</Link>
                                 </li>
                             </ul>
                         </div>

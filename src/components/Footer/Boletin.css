@@ -29,6 +29,22 @@
 	-webkit-border-radius: 0px;
 }
 
+.btn-subs{
+    width: fit-content !important; 
+    padding-top: 10px !important;
+    color: #FFFFFF !important;
+	font-size: 1.125em !important;
+	background-color: #00AEEF !important;
+	height: 50px !important;
+	padding: 6px 60px !important;
+	display: block !important;
+	margin: auto !important;
+	border: none !important;
+	border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	-webkit-border-radius: 0px !important;
+}
+
 .desubscribirse{
     color:white;
     cursor:pointer;
