@@ -7,6 +7,8 @@ import Home from '../pages/Home';
 import WhatToDo from '../pages/WhatToDo';
 import { AsiVamos }  from '../pages/AsiVamos';
 import { Transparencia } from '../pages/Transparencia';
+import  Mayor  from '../pages/Mayor';
+import Services from '../pages/Services';
 
 function App(){
     return (
@@ -21,6 +23,12 @@ function App(){
                     </Route>
                     <Route exact path='/Transparencia'>
                         <Transparencia/>
+                    </Route>
+                    <Route exact path='/Alcalde'>
+                        <Mayor/>
+                    </Route>
+                    <Route exact path='/Servicios'>
+                        <Services/>
                     </Route>
                     <Route component={NotFound}/>
                 </Switch>
