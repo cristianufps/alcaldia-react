@@ -2,7 +2,7 @@ import React from 'react';
 import ServicioSlider from './servicios/ServicioSlider';
 import ServicioBuscar from './servicios/ServicioBuscar';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ServicioCSS from '../css/Servicio.css';
+import './styles/Servicio.css';
 
 class Servicio extends React.Component {
     constructor(props) {

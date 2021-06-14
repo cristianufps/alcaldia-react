@@ -1,7 +1,7 @@
 import React from 'react';
 
-import noticias from '../Noticias.json';
-import './Noticia.css';
+import noticias from '../jsons/Noticias.json';
+import './styles/Noticia.css';
 class Noticias extends React.Component{
     render(){
         return(

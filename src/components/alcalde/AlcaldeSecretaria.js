@@ -1,6 +1,6 @@
 import React from 'react';
-import AlcaldeJSON from '../../alcalde.json';
-import AlcaldeCardCSS from '../../sass/TarjetaAlcalde.scss';
+import AlcaldeJSON from '../../jsons/alcalde.json';
+import '../styles/TarjetaAlcalde.scss';
 
 class AlcaldeSecretaria extends React.Component {
     constructor(props) {

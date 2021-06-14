@@ -8,7 +8,7 @@ import juridica from '../images/eventos_semana/juridica.jpg'
 import publica from '../images/eventos_semana/publica.jpg'
 import salud from '../images/eventos_semana/salud.jpg' 
 import seguridad from '../images/eventos_semana/seguridad.jpg'
-import './CardTemas.css'
+import './styles/CardTemas.css'
 const cards = [{
 id: 1,
 title: "AMBIENTE",

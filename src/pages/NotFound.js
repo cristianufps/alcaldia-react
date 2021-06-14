@@ -1,9 +1,7 @@
 import React from 'react';
 
-function NotFound (){ //componentes sin estado function, con estado class
-    return(
-    <p>NotFound</p>
-    );
+function NotFound() {
+  return <h1>404: Not Found</h1>;
 }
 
 export default NotFound;

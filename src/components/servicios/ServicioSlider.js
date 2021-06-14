@@ -1,5 +1,5 @@
 import React from 'react';
-import ServicioJSON from '../../servicio.json';
+import ServicioJSON from '../../jsons/servicio.json';
 
 class ServicioSlider extends React.Component {
     constructor(props) {
