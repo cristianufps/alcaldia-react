@@ -11,7 +11,7 @@ import AsiVamos from '../pages/AsiVamos';
 import Transparencia  from '../pages/Transparencia';
 import Mayor  from '../pages/Mayor';
 import Services from '../pages/Services';
-import Test from './Test';
+import CrudNoticia from './Admin/CrudNoticia';
 import Test2 from './Test2';
 
 const history = createBrowserHistory();
@@ -25,7 +25,7 @@ function App(){
                     <Route exact path='/Transparencia' layout={Layout1} component={Transparencia}/>
                     <Route exact path='/Alcalde' layout={Layout1} component={Mayor}/>
                     <Route exact path='/Servicios' layout={Layout1} component={Services}/>
-                    <Route exact path='/Admin' layout={Layout2} component={Test}/>
+                    <Route exact path='/Admin' layout={Layout2} component={CrudNoticia}/>
                     <Route exact path='/Admin/noticias' layout={Layout2} component={Test2}/>
                     <Route component={NotFound}/>
                 </Switch>   
