@@ -7,6 +7,7 @@ import Layout2 from './Layout2';
 import NotFound from '../pages/NotFound';
 import Home from '../pages/Home';
 import WhatToDo from '../pages/WhatToDo';
+import Temas from '../pages/Temas';
 import AsiVamos from '../pages/AsiVamos';
 import Transparencia  from '../pages/Transparencia';
 import Mayor  from '../pages/Mayor';
@@ -24,6 +25,7 @@ function App(){
                     <Route exact path='/AsiVamos' layout={Layout1} component={AsiVamos}/>
                     <Route exact path='/Transparencia' layout={Layout1} component={Transparencia}/>
                     <Route exact path='/Alcalde' layout={Layout1} component={Mayor}/>
+                    <Route exact path='/Temas' layout={Layout1} component={Temas}/>
                     <Route exact path='/Servicios' layout={Layout1} component={Services}/>
                     <Route exact path='/Admin' layout={Layout2} component={CrudNoticia}/>
                     <Route exact path='/Admin/noticias' layout={Layout2} component={Test2}/>
