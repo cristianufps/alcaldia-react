@@ -40,11 +40,11 @@ class CardEvento extends Component {
             {
               url.map(props => {
                 return (
-                  <div className="evento col-md-4 col-sm-6 col-xs-12" >
-                    <div className="card card-3 ">
+                  <div className="evento col-md-4 col-sm-6 col-xs-12 " >
+                    <div className="card card-3">
 
                       <span className="views-field views-field-field-categoria">
-                        <span className="field-content"><a href="#" hrefLang="es">{props.title}</a></span>
+                        <span className="field-content"><a href="#" hrefLang="es">{props.categoria}</a></span>
                       </span>
                       <span className="views-field views-field-field.image">
                         <span className="field-content">
@@ -56,17 +56,17 @@ class CardEvento extends Component {
                         </span>
                       </span>
                       <span className="views-field views-field-title">
-                        <h2 className="field-content titulo--card"><a href="">Programate este fin de semana</a></h2>
+                        <h2 className="field-content titulo--card"><a href="">{props.title}</a></h2>
                       </span>
                       <span className="views-field views-field-fecha">
                         <div className="field-content">
-                          <div>19/06/2021</div>
+                          <div>{props.fecha_inicio} - {props.fecha_finaliza}</div>
                         </div>
                       </span>
                       <div className="views-field views-field-nothing">
                         <span className="field-content">
                           <a id="link" href="#" target="_blank">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti cum inventore veniam vel odio nihil quaerat unde maxime quas ullam, et nobis doloribus magni voluptatibus nesciunt aperiam dolor vitae facilis!</p>
+                            <p>{props.descripcion}</p>
                           </a>
                         </span>
                       </div>
