@@ -15,7 +15,7 @@ class CrudEvento extends React.Component{
                         <div class="row">
                                 <div class="col"><h2>Añadir Nuevo Evento</h2></div>
                                 <div class="col">
-                                    <a id="create-icon"><FaPlusCircle/></a>
+                                    <a id="create-icon" href="/Admin/NewEvento"><FaPlusCircle/></a>
                                 </div>
                             </div>
                             <table class="table pt-4 text-center ">
