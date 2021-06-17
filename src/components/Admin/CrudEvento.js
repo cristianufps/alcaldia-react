@@ -24,6 +24,7 @@ class CrudEvento extends React.Component{
                                         <th scope="col">ID</th>
                                         <th scope="col">Fecha</th>
                                         <th scope="col">Categoria</th>
+                                        <th scope="col">Nombre</th>
                                         <th scope="col">Descripción</th>
                                         <th scope="col">Acciones</th>
                                     </tr>
@@ -34,6 +35,7 @@ class CrudEvento extends React.Component{
                                          <tr key={evento.id}>
                                             <td>{evento.id}</td>
                                             <td>{evento.fecha_inicio}-{evento.fecha_finaliza}</td>
+                                            <td>{evento.categoria}</td>
                                             <td>{evento.title}</td>
                                             <td>{evento.descripcion}</td>
                                             <td>
