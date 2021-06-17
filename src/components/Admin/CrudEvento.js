@@ -33,9 +33,9 @@ class CrudEvento extends React.Component{
                                      eventos.map((evento) => (
                                          <tr key={evento.id}>
                                             <td>{evento.id}</td>
-                                            <td>19/06/2021</td>
+                                            <td>{evento.fecha_inicio}-{evento.fecha_finaliza}</td>
                                             <td>{evento.title}</td>
-                                            <td>Descripción</td>
+                                            <td>{evento.descripcion}</td>
                                             <td>
                                                 <a id="edit-icon"><FaEdit/></a>
                                                 <a id="delete-icon"><FaTrashAlt/></a>
