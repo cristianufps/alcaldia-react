@@ -8,12 +8,15 @@ import NotFound from '../pages/NotFound';
 import Home from '../pages/Home';
 import WhatToDo from '../pages/WhatToDo';
 import AsiVamos from '../pages/AsiVamos';
+import Noticias from '../pages/Noticias';
 import Transparencia  from '../pages/Transparencia';
 import Mayor  from '../pages/Mayor';
+import Temas  from '../pages/Temas';
 import Services from '../pages/Services';
 import CrudNoticia from './Admin/CrudNoticia';
-import Test2 from './Test2';
-
+import NewNoticias from './Admin/NewNoticia';
+import CrudEventos from './Admin/CrudEvento';
+import NewEventos from './Admin/NewEvento';
 const history = createBrowserHistory();
 function App(){
     return (
@@ -22,12 +25,17 @@ function App(){
                     <Route exact path='/' layout={Layout1} component={Home}/>
                     <Route exact path='/QueHacer' layout={Layout1} component={WhatToDo}/>
                     <Route exact path='/AsiVamos' layout={Layout1} component={AsiVamos}/>
+                    <Route exact path='/Noticias' layout={Layout1} component={Noticias}/>
                     <Route exact path='/Transparencia' layout={Layout1} component={Transparencia}/>
                     <Route exact path='/Alcalde' layout={Layout1} component={Mayor}/>
+                    <Route exact path='/Temas' layout={Layout1} component={Temas}/>
                     <Route exact path='/Servicios' layout={Layout1} component={Services}/>
                     <Route exact path='/Admin' layout={Layout2} component={CrudNoticia}/>
-                    <Route exact path='/Admin/noticias' layout={Layout2} component={Test2}/>
-                    <Route component={NotFound}/>
+                    <Route exact path='/Admin/noticias' layout={Layout2} component={CrudNoticia}/>
+                    <Route exact path='/Admin/eventos' layout={Layout2} component={CrudEventos}/>
+                    <Route exact path='/Admin/NewEvento' layout={Layout2} component={NewEventos}/>
+                    <Route exact path='/Admin/NewNoticia' layout={Layout2} component={NewNoticias}/>
+                    <Route layout={Layout2} component={NotFound}/>
                 </Switch>   
         </BrowserRouter>
     );

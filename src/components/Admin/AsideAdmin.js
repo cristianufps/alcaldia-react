@@ -8,11 +8,11 @@ function AsideAdmin(props){
             <div className="sidebar-heading"><h3>Menu</h3></div>
             <div className="list-group list-group-flush">
                 <Link to="/Admin/noticias" className="list-group-item">Noticias</Link>
-                <Link to="/Admin" className="list-group-item">Eventos</Link>
-                <Link to="/Admin" className="list-group-item">Servicios</Link>
-                <Link to="/Admin" className="list-group-item">Proyectos</Link>
-                <Link to="/Admin" className="list-group-item">Alcaldia</Link>
-                <button className="btn btn-danger">Cerrar Sesión</button>
+                <Link to="/Admin/Eventos" className="list-group-item">Eventos</Link>
+                <Link to="/Admin/Servicios" className="list-group-item">Servicios</Link>
+                <Link to="/Admin/Proyectos" className="list-group-item">Proyectos</Link>
+                <Link to="/Admin/Alcaldia" className="list-group-item">Alcaldia</Link>
+                <Link to="/" className="btn btn-danger">Cerrar Sesión</Link>
             </div>
         </React.Fragment>
     )

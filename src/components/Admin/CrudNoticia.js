@@ -31,7 +31,7 @@ class CrudNoticia extends React.Component{
                             <div class="row align-items-center">
                                 <div class="col"><h2>Crear Noticia</h2></div>
                                 <div class="col">
-                                    <Link to="" id="create-icon"><FaPlusCircle/></Link>
+                                    <Link to="/Admin/NewNoticia" id="create-icon"><FaPlusCircle/></Link>
                                 </div>
                             </div>
                             <table class="table pt-4 text-center ">
