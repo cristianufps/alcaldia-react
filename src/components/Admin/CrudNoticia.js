@@ -38,7 +38,7 @@ class CrudNoticia extends React.Component{
                                 <thead class="thead-dark">
                                     <tr>
                                         <th scope="col">ID</th>
-                                        <th scope="col">Fecha</th>
+                                        <th scope="col">Descripcion</th>
                                         <th scope="col">Titulo</th>
                                         <th scope="col">Acciones</th>
                                     </tr>
