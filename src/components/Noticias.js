@@ -27,7 +27,7 @@ class Noticias extends React.Component{
                     </div>
                     <div className="row ">
                     {
-                        this.state.data.slice(1).map((noticia) => (
+                        this.state.data.map((noticia) => (
                             <div key={noticia.idNoticia} className="news-card col-sm-12 col-md-6 col-lg-4">
                                 <div className="card ">
                                     <div className="overflow">
