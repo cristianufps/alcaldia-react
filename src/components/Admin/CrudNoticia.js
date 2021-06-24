@@ -15,6 +15,21 @@ class CrudNoticia extends React.Component{
         this.fetchNews();
     }
 
+    eliminarNoticia= async(id) => {
+        await fetch(`${this.state.url}noticia/${id}`,{method: "DELETE"})
+        .then(response => {
+            if(response.status === 200){
+                const nuevo = this.state.data.filter((item) => item.idNoticia != id);
+                this.setState({
+                    data : nuevo,
+                })
+            }else{
+                return response.json()
+            }
+        }).then(error => console.log(error))
+        
+        
+    }
     fetchNews = async () => {
         const response = await fetch(`${this.state.url}noticia`);
         const data = await response.json();
@@ -52,7 +67,7 @@ class CrudNoticia extends React.Component{
                                             <td>{noticia.titulo}</td>
                                             <td>
                                                 <Link to="" id="edit-icon"><FaEdit/></Link>
-                                                <Link to="" id="delete-icon"><FaTrashAlt/></Link>
+                                                <span onClick={() => this.eliminarNoticia(noticia.idNoticia)} id="delete-icon"><FaTrashAlt/></span>
                                             </td>
                                          </tr>
                                      ))
