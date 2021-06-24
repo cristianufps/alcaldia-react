@@ -14,6 +14,7 @@
 #delete-icon {
     font-size:25px;
     color:#ab4630  ;
+    cursor: pointer;
 }
 
 #create-icon {

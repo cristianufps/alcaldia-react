@@ -31,7 +31,7 @@ class Noticias extends React.Component{
                             <div key={noticia.idNoticia} className="news-card col-sm-12 col-md-6 col-lg-4">
                                 <div className="card ">
                                     <div className="overflow">
-                                    <img className="card-img-top" src= {`${this.state.url}/uploads/${noticia.fotos[0].descripcion}`} alt="Card image cap"/>
+                                    <img className="card-img-top" src= {`${this.state.url}uploads/${noticia.fotos[0].descripcion}`} alt="Card image cap"/>
                                     </div>
                                         <div className="card-body dark-back">
                                             <h5 className="new-title">{noticia.descripcion}</h5>
