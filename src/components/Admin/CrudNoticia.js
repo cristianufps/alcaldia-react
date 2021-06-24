@@ -1,11 +1,27 @@
 import React from 'react';
-import noticias from '../../jsons/Noticias.json';
 import { FaEdit }  from "react-icons/fa";
 import { FaTrashAlt }  from "react-icons/fa";
 import { FaPlusCircle }  from "react-icons/fa";
+import { Link } from 'react-router-dom';
 import '../styles/CrudNoticia.css';
 
 class CrudNoticia extends React.Component{
+    state = {
+        data: [],
+        url: 'http://seminarioalcaldia-env.eba-ws2bjadt.us-east-1.elasticbeanstalk.com/',
+    };
+    
+    componentDidMount(){
+        this.fetchNews();
+    }
+
+    fetchNews = async () => {
+        const response = await fetch(`${this.state.url}noticia`);
+        const data = await response.json();
+        this.setState({
+            data : data,
+        });
+    }
     render(){
         return(
             <div>
@@ -15,7 +31,7 @@ class CrudNoticia extends React.Component{
                             <div class="row align-items-center">
                                 <div class="col"><h2>Crear Noticia</h2></div>
                                 <div class="col">
-                                    <a id="create-icon"><FaPlusCircle/></a>
+                                    <Link to="" id="create-icon"><FaPlusCircle/></Link>
                                 </div>
                             </div>
                             <table class="table pt-4 text-center ">
@@ -29,14 +45,14 @@ class CrudNoticia extends React.Component{
                                 </thead>
                                 <tbody>
                                 {   
-                                     noticias.map((noticia) => (
-                                         <tr key={noticia.id}>
-                                            <td>{noticia.id}</td>
-                                            <td>{noticia.fecha}</td>
-                                            <td>{noticia.tittle}</td>
+                                     this.state.data.map((noticia) => (
+                                         <tr key={noticia.idNoticia}>
+                                            <td>{noticia.idNoticia}</td>
+                                            <td>{noticia.descripcion}</td>
+                                            <td>{noticia.titulo}</td>
                                             <td>
-                                                <a id="edit-icon"><FaEdit/></a>
-                                                <a id="delete-icon"><FaTrashAlt/></a>
+                                                <Link to="" id="edit-icon"><FaEdit/></Link>
+                                                <Link to="" id="delete-icon"><FaTrashAlt/></Link>
                                             </td>
                                          </tr>
                                      ))
