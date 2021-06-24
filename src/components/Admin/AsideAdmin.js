@@ -3,6 +3,9 @@ import '../styles/AsideAdmin.css';
 import { Link } from 'react-router-dom';
 
 function AsideAdmin(props){
+    const cerrarSesion = () => {
+        localStorage.removeItem('token');
+    }
     return(
         <React.Fragment>
             <div className="sidebar-heading"><h3>Menu</h3></div>
@@ -12,7 +15,7 @@ function AsideAdmin(props){
                 <Link to="/Admin/Servicios" className="list-group-item">Servicios</Link>
                 <Link to="/Admin/Proyectos" className="list-group-item">Proyectos</Link>
                 <Link to="/Admin/Alcaldia" className="list-group-item">Alcaldia</Link>
-                <Link to="/" className="btn btn-danger">Cerrar Sesión</Link>
+                <Link to="/" className="btn btn-danger" onClick={() => cerrarSesion}>Cerrar Sesión</Link>
             </div>
         </React.Fragment>
     )

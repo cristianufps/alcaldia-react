@@ -17,6 +17,7 @@ import CrudNoticia from './Admin/CrudNoticia';
 import NewNoticias from './Admin/NewNoticia';
 import CrudEventos from './Admin/CrudEvento';
 import NewEventos from './Admin/NewEvento';
+import Login from './Login';
 const history = createBrowserHistory();
 function App(){
     return (
@@ -30,6 +31,7 @@ function App(){
                     <Route exact path='/Alcalde' layout={Layout1} component={Mayor}/>
                     <Route exact path='/Temas' layout={Layout1} component={Temas}/>
                     <Route exact path='/Servicios' layout={Layout1} component={Services}/>
+                    <Route exact path='/Login' component={Login}/>
                     <Route exact path='/Admin' layout={Layout2} component={CrudNoticia}/>
                     <Route exact path='/Admin/noticias' layout={Layout2} component={CrudNoticia}/>
                     <Route exact path='/Admin/eventos' layout={Layout2} component={CrudEventos}/>
