@@ -2,7 +2,7 @@ import React from 'react';
 import { FaEdit }  from "react-icons/fa";
 import { FaTrashAlt }  from "react-icons/fa";
 import { FaPlusCircle }  from "react-icons/fa";
-import { Link, Redirect } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import '../styles/CrudNoticia.css';
 
 class CrudNoticia extends React.Component{
@@ -19,13 +19,17 @@ class CrudNoticia extends React.Component{
     }
 
     eliminarNoticia= async(id) => {
-        await fetch(`${this.state.url}noticia/${id}`,{method: "DELETE"})
+        await fetch(`${this.state.url}noticia/${id}`,{
+            method: "DELETE",
+            headers: { Authorization: `Bearer ${localStorage.getItem('token')}`}
+        })
         .then(response => {
             if(response.status === 200){
                 const nuevo = this.state.data.filter((item) => item.idNoticia !== id);
                 this.setState({
                     data : nuevo,
                 })
+                return response.json()
             }else{
                 return response.json()
             }
