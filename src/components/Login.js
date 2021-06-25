@@ -28,24 +28,24 @@ class Login extends React.Component {
             method: 'POST',
             body: JSON.stringify(this.state.formulario),
         }).then((response) => {
-                if(response.status === 200){
-                    this.setState({
-                        error: null,
-                        isError: false
-                    });
-                    return response.json();                  
-                }else{
-                    this.setState({
-                        error: 'Credenciales Invalidas',
-                        isError: true
-                    });
-                }
-            }).then((a) => {
-                if(!this.state.isError){
-                    localStorage.setItem('token', a.token);
-                    this.props.history.push('/Admin');
-                }
-            })
+            if (response.status === 200) {
+                this.setState({
+                    error: null,
+                    isError: false
+                });
+                return response.json();
+            } else {
+                this.setState({
+                    error: 'Credenciales Invalidas',
+                    isError: true
+                });
+            }
+        }).then((a) => {
+            if (!this.state.isError) {
+                localStorage.setItem('token', a.token);
+                this.props.history.push('/Admin');
+            }
+        })
     }
     enviar = (e) => {
         e.preventDefault();
@@ -68,9 +68,6 @@ class Login extends React.Component {
                         <div className="right">
                             <div className="content">
                                 <h2>Iniciar Sesión</h2>
-                                {
-                                        this.state.isError === true &&  <span>{this.state.error}</span> 
-                                    }
                                 <form id="form-login" onSubmit={this.enviar}>
                                     <div className="form-element form-stack">
                                         <label htmlFor="username-login" className="form-label">Email</label>
@@ -80,6 +77,9 @@ class Login extends React.Component {
                                         <label htmlFor="password-login" className="form-label">Clave</label>
                                         <input id="password-login" type="password" name="password" onChange={this.param}></input>
                                     </div>
+                                    {
+                                        this.state.isError === true && <div class="alert alert-danger" role="alert">{this.state.error}</div>
+                                    }
                                     <div className="form-element form-submit">
                                         <button id="logIn" className="login" type="submit" name="login">Iniciar Sesión</button>
                                     </div>

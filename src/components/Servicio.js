@@ -12,12 +12,12 @@ class Servicio extends React.Component {
         return (
             <div>
                 <div className="contenedor-tramite">
+                    <img src="https://www.tauramena-casanare.gov.co/Style%20Library/images/icon/1-04.svg" className="image-tramite"></img>
+                    <ServicioBuscar></ServicioBuscar>
                     <h1>Tramites & Servicios</h1>
                     <div className="slider-padding-tramite">
                         <ServicioSlider></ServicioSlider>
                     </div>
-                    <img src="https://www.tauramena-casanare.gov.co/Style%20Library/images/icon/1-04.svg" className="image-tramite"></img>
-                    <ServicioBuscar></ServicioBuscar>
                 </div>
             </div>
         )
