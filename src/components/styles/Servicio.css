@@ -579,3 +579,26 @@ img.f-right {
 .input-submit {
 	padding:3px;
 }
+
+.diplay-flex-card{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+
+.diplay-flex-card-center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.diplay-flex-card-column{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: row;
+}
