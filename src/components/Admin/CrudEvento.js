@@ -6,6 +6,11 @@ import { FaPlusCircle }  from "react-icons/fa";
 import '../styles/CrudEvento.css';
 
 class CrudEvento extends React.Component{
+    componentDidMount(){
+        if(localStorage.getItem("token") === null){
+            this.props.history.push('/login');
+        }
+    }
     render(){
         return(
 <div>

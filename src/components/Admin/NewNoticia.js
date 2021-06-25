@@ -14,7 +14,8 @@ class NewNoticia extends React.Component{
         let dataForm = new FormData(document.forms.namedItem("formulario"))
         await fetch("http://seminarioalcaldia-env.eba-ws2bjadt.us-east-1.elasticbeanstalk.com/noticia/save/1",{
             method: "POST",
-            body: dataForm
+            body: dataForm,
+            headers: {"Authorization" : `Bearer ${localStorage.getItem("token")}`}, 
         }).then(response => {
             if(response.status === 200){
                 console.log(response.json())
@@ -42,10 +43,10 @@ class NewNoticia extends React.Component{
                         <Label id="label"><strong>Descripcion</strong></Label>
                         <Input type="textarea" id="descripcion" name="descripcion"></Input>
                     </FormGroup>
-                    <FormGroup className="form_group">
+                   {/*  <FormGroup className="form_group">
                         <Label id="label"><strong>Fecha</strong></Label>
                         <Input type="date" id="fechaCreacion" name="fechaCreacion"></Input>
-                    </FormGroup>
+                    </FormGroup> */}
                     <FormGroup className="form_group">
                         <Label className="image"><strong>Imagen</strong></Label>
                         <Input type="file" id="imagen" name="files"></Input>

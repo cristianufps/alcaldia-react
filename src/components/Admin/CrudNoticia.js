@@ -2,7 +2,7 @@ import React from 'react';
 import { FaEdit }  from "react-icons/fa";
 import { FaTrashAlt }  from "react-icons/fa";
 import { FaPlusCircle }  from "react-icons/fa";
-import { Link } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
 import '../styles/CrudNoticia.css';
 
 class CrudNoticia extends React.Component{
@@ -12,6 +12,9 @@ class CrudNoticia extends React.Component{
     };
     
     componentDidMount(){
+        if(localStorage.getItem("token") === null){
+            this.props.history.push('/login');
+        }
         this.fetchNews();
     }
 
@@ -19,7 +22,7 @@ class CrudNoticia extends React.Component{
         await fetch(`${this.state.url}noticia/${id}`,{method: "DELETE"})
         .then(response => {
             if(response.status === 200){
-                const nuevo = this.state.data.filter((item) => item.idNoticia != id);
+                const nuevo = this.state.data.filter((item) => item.idNoticia !== id);
                 this.setState({
                     data : nuevo,
                 })

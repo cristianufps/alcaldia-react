@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router4-with-layouts';
-import { BrowserRouter, Switch } from 'react-router-dom';
+import { Router, Switch } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
 import Layout1 from './Layout';
 import Layout2 from './Layout2';
@@ -21,7 +21,7 @@ import Login from './Login';
 const history = createBrowserHistory();
 function App(){
     return (
-        <BrowserRouter history={history}>      
+        <Router history={history}>      
                 <Switch>
                     <Route exact path='/' layout={Layout1} component={Home}/>
                     <Route exact path='/QueHacer' layout={Layout1} component={WhatToDo}/>
@@ -37,9 +37,9 @@ function App(){
                     <Route exact path='/Admin/eventos' layout={Layout2} component={CrudEventos}/>
                     <Route exact path='/Admin/NewEvento' layout={Layout2} component={NewEventos}/>
                     <Route exact path='/Admin/NewNoticia' layout={Layout2} component={NewNoticias}/>
-                    <Route layout={Layout2} component={NotFound}/>
+                    <Route component={NotFound}/>
                 </Switch>   
-        </BrowserRouter>
+        </Router>
     );
 }
 
