@@ -17,8 +17,8 @@ class AlcaldeSecretaria extends React.Component {
                             <div className="photo" style={{ backgroundImage: "url(" + value.cargo.image + ")" }}> </div>
                             <ul className="details">
                                 <li className="author"><a href="#">{value.nombre}</a></li>
-                                <li className="date">{value.atencion}</li>
-                                <li className="date">{value.telefono}</li>
+                                <li>{value.atencion}</li>
+                                <li>{value.telefono}</li>
                                 <li className="tags">
                                     <ul>
                                         <li><a href="#">{value.cargo.nombre}</a></li>
