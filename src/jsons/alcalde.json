@@ -106,6 +106,270 @@
                     "email": "cultura@cucuta.gov.co",
                     "telefono": "NN"
                 }
+            },
+            {
+                "nombre": "Secretaria de Gobierno",
+                "direccion": "Av. 5 entre calles 13 y 14, Esquina. Segundo Piso.",
+                "atencion": "Lunes a Viernes 7:30 a.m. - 12:00 m. y 2:00 p.m. - 6:00 p.m.",
+                "telefono": "(57+7)5710290 - (57+7) 5710590 Ext: 1185.",
+                "cargo": {
+                    "nombre": "Taiz Del Pilar Ortega Torres",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE3OmfE6jONekUr7fJPMXCQTPOLVa__xPcSw&usqp=CAU",
+                    "email": "secinterior@nortedesantander.gov.co",
+                    "telefono": "PBX. (7)5784949 EXT. 6708"
+                }
+            },
+            {
+                "nombre": "Secretaria de Paz y Cultura ciudadana ",
+                "direccion": "Av. 5 entre calles 13 y 14, Esquina. Segundo Piso.",
+                "atencion": "Lunes a Viernes 7:30 a.m. - 12:00 m. y 2:00 p.m. - 6:00 p.m.",
+                "telefono": "(57+7)5710290 - (57+7) 5710590 Ext: 1185.",
+                "cargo": {
+                    "nombre": "Tatiana Andrea Villamil Gomez",
+                    "image": "https://research-hub.urosario.edu.co/file/n2420/52382859.jpg",
+                    "email": "secinterior@nortedesantander.gov.co",
+                    "telefono": "PBX. (7)5784949 EXT. 6708"
+                }
+            },
+            {
+                "nombre": "Gestion Juridica Publica ",
+                "direccion": "Av. 5 entre calles 13 y 14, Esquina. Segundo Piso.",
+                "atencion": "Lunes a Viernes 7:30 a.m. - 12:00 m. y 2:00 p.m. - 6:00 p.m.",
+                "telefono": "(57+7)5710290 - (57+7) 5710590 Ext: 1185.",
+                "cargo": {
+                    "nombre": "Maria Camila Rodiguez Buitrago",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_xNjRG54Usf1taQMYWwo6lyeGlgiEFuKN2a8IYbH9uUtM9zXyInH8WzKOpS36P9WiI5U&usqp=CAU",
+                    "email": "secinterior@nortedesantander.gov.co",
+                    "telefono": "PBX. (7)5784949 EXT. 6708"
+                }
+            },
+            {
+                "nombre": "Control Interno",
+                "direccion": "Av. 5 entre calles 13 y 14, Esquina. Segundo Piso.",
+                "atencion": "Lunes a Viernes 7:30 a.m. - 12:00 m. y 2:00 p.m. - 6:00 p.m.",
+                "telefono": "(57+7)5710290 - (57+7) 5710590 Ext: 1185.",
+                "cargo": {
+                    "nombre": "Taiz Del Pilar Ortega Torres",
+                    "image": "",
+                    "email": "secinterior@nortedesantander.gov.co",
+                    "telefono": "PBX. (7)5784949 EXT. 6708"
+                }
+            },
+            {
+                "nombre": "Control Disciplinario interno",
+                "direccion": "Av. 5 entre calles 13 y 14, Esquina. Segundo Piso.",
+                "atencion": "Lunes a Viernes 7:30 a.m. - 12:00 m. y 2:00 p.m. - 6:00 p.m.",
+                "telefono": "(57+7)5710290 - (57+7) 5710590 Ext: 1185.",
+                "cargo": {
+                    "nombre": "Juan Tomas Ordoñez",
+                    "image": "https://www.urosario.edu.co/getattachment/0592137e-f334-4e14-834c-f2fe99f5107d/Ordonez-Roth-Juan-Thomas",
+                    "email": "secinterior@nortedesantander.gov.co",
+                    "telefono": "PBX. (7)5784949 EXT. 6708"
+                }
+            },
+            {
+                "nombre": "Hacienda Municipal ",
+                "direccion": "Av. 5 entre calles 13 y 14, Esquina. Segundo Piso.",
+                "atencion": "Lunes a Viernes 7:30 a.m. - 12:00 m. y 2:00 p.m. - 6:00 p.m.",
+                "telefono": "(57+7)5710290 - (57+7) 5710590 Ext: 1185.",
+                "cargo": {
+                    "nombre": "Carlos Manuel Rincon Gomez",
+                    "image": "https://www.urosario.edu.co/getattachment/0592137e-f334-4e14-834c-f2fe99f5107d/Ordonez-Roth-Juan-Thomas",
+                    "email": "secinterior@nortedesantander.gov.co",
+                    "telefono": "PBX. (7)5784949 EXT. 6708"
+                }
+            },
+            {
+                "nombre": "Planeacion Municipal",
+                "direccion": "Av. 5 entre calles 13 y 14, Esquina. Segundo Piso.",
+                "atencion": "Lunes a Viernes 7:30 a.m. - 12:00 m. y 2:00 p.m. - 6:00 p.m.",
+                "telefono": "(57+7)5710290 - (57+7) 5710590 Ext: 1185.",
+                "cargo": {
+                    "nombre": "Juliana Alejandra Ramirez ",
+                    "image": "https://share.america.gov/wp-content/uploads/2016/12/AP_16312789247954.jpg",
+                    "email": "secinterior@nortedesantander.gov.co",
+                    "telefono": "PBX. (7)5784949 EXT. 6708"
+                }
+            },
+            {
+                "nombre": "Tecnologias de la Informacion de Comunicaciones",
+                "direccion": "Av. 5 entre calles 13 y 14, Esquina. Segundo Piso.",
+                "atencion": "Lunes a Viernes 7:30 a.m. - 12:00 m. y 2:00 p.m. - 6:00 p.m.",
+                "telefono": "(57+7)5710290 - (57+7) 5710590 Ext: 1185.",
+                "cargo": {
+                    "nombre": "Juana Rangel Cuellar",
+                    "image": "https://www.redaccionmedica.com/images/destacados/el-gobierno-pone-en-marcha-el-observatorio-de-salud-de-las-mujeres-6855.jpg",
+                    "email": "secinterior@nortedesantander.gov.co",
+                    "telefono": "PBX. (7)5784949 EXT. 6708"
+                }
+            },
+            {
+                "nombre": "Gestion del Medio Ambiente ",
+                "direccion": "Av. 5 entre calles 13 y 14, Esquina. Segundo Piso.",
+                "atencion": "Lunes a Viernes 7:30 a.m. - 12:00 m. y 2:00 p.m. - 6:00 p.m.",
+                "telefono": "(57+7)5710290 - (57+7) 5710590 Ext: 1185.",
+                "cargo": {
+                    "nombre": "Mario Alonso Mendoza",
+                    "image": "https://imagenes.20minutos.es/files/image_656_370/uploads/imagenes/2019/08/20/1036658.jpg",
+                    "email": "secinterior@nortedesantander.gov.co",
+                    "telefono": "PBX. (7)5784949 EXT. 6708"
+                }
+            },
+            {
+                "nombre": "Secretaria Seguridad y Justicia",
+                "direccion": "Av. 5 entre calles 13 y 14, Esquina. Segundo Piso.",
+                "atencion": "Lunes a Viernes 7:30 a.m. - 12:00 m. y 2:00 p.m. - 6:00 p.m.",
+                "telefono": "(57+7)5710290 - (57+7) 5710590 Ext: 1185.",
+                "cargo": {
+                    "nombre": "Jose Eduardo Arias",
+                    "image": "https://www.informador.mx/__export/1593065483375/sites/elinformador/img/2020/06/25/rodrigo_herrera_crop1593065138971.jpg_1902800913.jpg",
+                    "email": "secinterior@nortedesantander.gov.co",
+                    "telefono": "PBX. (7)5784949 EXT. 6708"
+                }
+            },
+            {
+                "nombre": "Secretaria del Gestion del Riesgo de Emergencia Desastres",
+                "direccion": "Av. 5 entre calles 13 y 14, Esquina. Segundo Piso.",
+                "atencion": "Lunes a Viernes 7:30 a.m. - 12:00 m. y 2:00 p.m. - 6:00 p.m.",
+                "telefono": "(57+7)5710290 - (57+7) 5710590 Ext: 1185.",
+                "cargo": {
+                    "nombre": "Leonel Daniel Rojas",
+                    "image": "https://sdmedia.playser.cadenaser.com/playser/image/20211/05/1609864931227_1609879019_asset_still.jpeg",
+                    "email": "secinterior@nortedesantander.gov.co",
+                    "telefono": "PBX. (7)5784949 EXT. 6708"
+                }
+            },
+            {
+                "nombre": "Secretaria de Salud Publica ",
+                "direccion": "Av. 5 entre calles 13 y 14, Esquina. Segundo Piso.",
+                "atencion": "Lunes a Viernes 7:30 a.m. - 12:00 m. y 2:00 p.m. - 6:00 p.m.",
+                "telefono": "(57+7)5710290 - (57+7) 5710590 Ext: 1185.",
+                "cargo": {
+                    "nombre": " ",
+                    "image": " ",
+                    "email": "secinterior@nortedesantander.gov.co",
+                    "telefono": "PBX. (7)5784949 EXT. 6708"
+                }
+            },
+            {
+                "nombre": "Secretaria de Educacion ",
+                "direccion": "Av. 5 entre calles 13 y 14, Esquina. Segundo Piso.",
+                "atencion": "Lunes a Viernes 7:30 a.m. - 12:00 m. y 2:00 p.m. - 6:00 p.m.",
+                "telefono": "(57+7)5710290 - (57+7) 5710590 Ext: 1185.",
+                "cargo": {
+                    "nombre": "Stiven Walter Palomino",
+                    "image": "https://files.lafm.com.co/assets/public/2019-08/samy-bessudo_0.jpg ",
+                    "email": "secinterior@nortedesantander.gov.co",
+                    "telefono": "PBX. (7)5784949 EXT. 6708"
+                }
+            },
+            {
+                "nombre": "Secretaria Desarrollo Economico",
+                "direccion": "Av. 5 entre calles 13 y 14, Esquina. Segundo Piso.",
+                "atencion": "Lunes a Viernes 7:30 a.m. - 12:00 m. y 2:00 p.m. - 6:00 p.m.",
+                "telefono": "(57+7)5710290 - (57+7) 5710590 Ext: 1185.",
+                "cargo": {
+                    "nombre": "Mauricio Ivan Hoyos",
+                    "image": "http://www.ernestojerardo.com/wp-content/uploads/2018/02/Mauricio-Hoyos.jpg",
+                    "email": "secinterior@nortedesantander.gov.co",
+                    "telefono": "PBX. (7)5784949 EXT. 6708"
+                }
+            },
+            {
+                "nombre": "Secretaria de Bienestar Social ",
+                "direccion": "Av. 5 entre calles 13 y 14, Esquina. Segundo Piso.",
+                "atencion": "Lunes a Viernes 7:30 a.m. - 12:00 m. y 2:00 p.m. - 6:00 p.m.",
+                "telefono": "(57+7)5710290 - (57+7) 5710590 Ext: 1185.",
+                "cargo": {
+                    "nombre": "Taiz Del Pilar Ortega Torres",
+                    "image": "",
+                    "email": "secinterior@nortedesantander.gov.co",
+                    "telefono": "PBX. (7)5784949 EXT. 6708"
+                }
+            },
+            {
+                "nombre": "Secretaria de Infraestructura ",
+                "direccion": "Av. 5 entre calles 13 y 14, Esquina. Segundo Piso.",
+                "atencion": "Lunes a Viernes 7:30 a.m. - 12:00 m. y 2:00 p.m. - 6:00 p.m.",
+                "telefono": "(57+7)5710290 - (57+7) 5710590 Ext: 1185.",
+                "cargo": {
+                    "nombre": "Maria Teresa Garrapata",
+                    "image": "https://www.revistaneo.com/sites/default/files/2020-04/Ver%C3%B3nica%20Guti%C3%A9rrez%20PG_8.JPG",
+                    "email": "secinterior@nortedesantander.gov.co",
+                    "telefono": "PBX. (7)5784949 EXT. 6708"
+                }
+            },
+            {
+                "nombre": "Secretaria de Deporte y Recreacion",
+                "direccion": "Av. 5 entre calles 13 y 14, Esquina. Segundo Piso.",
+                "atencion": "Lunes a Viernes 7:30 a.m. - 12:00 m. y 2:00 p.m. - 6:00 p.m.",
+                "telefono": "(57+7)5710290 - (57+7) 5710590 Ext: 1185.",
+                "cargo": {
+                    "nombre": "Julieth  Josefa Norfelina",
+                    "image": "https://static01.diariodenavarra.es/uploads/imagenes/8col/2018/08/02/_yolandacadb9d2e_1d7b8e3c.jpg?bef1e38967b232c7e4f0c1ee9d25fa8d",
+                    "email": "secinterior@nortedesantander.gov.co",
+                    "telefono": "PBX. (7)5784949 EXT. 6708"
+                }
+            },
+            {
+                "nombre": "Secretaria de Movilidad  ",
+                "direccion": "Av. 5 entre calles 13 y 14, Esquina. Segundo Piso.",
+                "atencion": "Lunes a Viernes 7:30 a.m. - 12:00 m. y 2:00 p.m. - 6:00 p.m.",
+                "telefono": "(57+7)5710290 - (57+7) 5710590 Ext: 1185.",
+                "cargo": {
+                    "nombre": " Jessica Paola Garcia",
+                    "image": "https://image.freepik.com/foto-gratis/empresaria-confiada-sonriente-que-presenta-brazos-cruzados_1262-20950.jpg",
+                    "email": "secinterior@nortedesantander.gov.co",
+                    "telefono": "PBX. (7)5784949 EXT. 6708"
+                }
+            },
+            {
+                "nombre": "Secretaria de Vivienda Social y Habitat",
+                "direccion": "Av. 5 entre calles 13 y 14, Esquina. Segundo Piso.",
+                "atencion": "Lunes a Viernes 7:30 a.m. - 12:00 m. y 2:00 p.m. - 6:00 p.m.",
+                "telefono": "(57+7)5710290 - (57+7) 5710590 Ext: 1185.",
+                "cargo": {
+                    "nombre": "Maira Carolina Freite perez",
+                    "image": " https://img.freepik.com/foto-gratis/sonriente-mujer-negocios-cruzar-brazos-aislado-blanco_1301-5326.jpg?size=626&ext=jpg",
+                    "email": "secinterior@nortedesantander.gov.co",
+                    "telefono": "PBX. (7)5784949 EXT. 6708"
+                }
+            },
+            {
+                "nombre": "Secretaria de Turismo ",
+                "direccion": "Av. 5 entre calles 13 y 14, Esquina. Segundo Piso.",
+                "atencion": "Lunes a Viernes 7:30 a.m. - 12:00 m. y 2:00 p.m. - 6:00 p.m.",
+                "telefono": "(57+7)5710290 - (57+7) 5710590 Ext: 1185.",
+                "cargo": {
+                    "nombre": "",
+                    "image": "https://image.freepik.com/foto-gratis/mujer-negocios-hermosa-traje-azul-tocando-pantalla-virtual-fondo-blanco_33799-3018.jpg",
+                    "email": "secinterior@nortedesantander.gov.co",
+                    "telefono": "PBX. (7)5784949 EXT. 6708"
+                }
+            },
+            {
+                "nombre": "Corporacion de Eventos, Ferias y Espectaculos de Cucuta",
+                "direccion": "Av. 5 entre calles 13 y 14, Esquina. Segundo Piso.",
+                "atencion": "Lunes a Viernes 7:30 a.m. - 12:00 m. y 2:00 p.m. - 6:00 p.m.",
+                "telefono": "(57+7)5710290 - (57+7) 5710590 Ext: 1185.",
+                "cargo": {
+                    "nombre": "Martha Patricia Lopez Gallardo",
+                    "image": "https://image.freepik.com/foto-gratis/mujer-negocios-hermosa-traje-azul-tocando-pantalla-virtual-fondo-blanco_33799-3018.jpg",
+                    "email": "secinterior@nortedesantander.gov.co",
+                    "telefono": "PBX. (7)5784949 EXT. 6708"
+                }
+            },
+            {
+                "nombre": "Contratacion Publica ",
+                "direccion": "Av. 5 entre calles 13 y 14, Esquina. Segundo Piso.",
+                "atencion": "Lunes a Viernes 7:30 a.m. - 12:00 m. y 2:00 p.m. - 6:00 p.m.",
+                "telefono": "(57+7)5710290 - (57+7) 5710590 Ext: 1185.",
+                "cargo": {
+                    "nombre": "Juan Manuel Torres",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF41epqDegJNlgnV6k3pW83CQpK9xAmIdRrSb9423blMTm1MZ4hqSACeEkUn7RXKO1FKk&usqp=CAU",
+                    "email": "secinterior@nortedesantander.gov.co",
+                    "telefono": "PBX. (7)5784949 EXT. 6708"
+                }
             }
         ]
     ]
