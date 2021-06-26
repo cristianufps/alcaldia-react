@@ -3,10 +3,6 @@ import '../styles/AsideAdmin.css';
 import { Link } from 'react-router-dom';
 
 function AsideAdmin(props){
-    /*  cerrarSesion = () => {
-        console.log("entro 33")
-        localStorage.clear();
-    } */
     return(
         <React.Fragment>
             <div className="sidebar-heading"><h3>Menu</h3></div>

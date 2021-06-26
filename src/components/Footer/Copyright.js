@@ -5,17 +5,33 @@ import { FaFacebookF }  from "react-icons/fa";
 import { FaInstagram }  from "react-icons/fa";
 import { FaYoutube}  from "react-icons/fa";
 import { FaTwitter }  from "react-icons/fa";
-
+import { Link } from 'react-router-dom';
 class Copyright extends React.Component{
+    state = {
+        data: [],
+        url: 'http://seminarioalcaldia-env.eba-ws2bjadt.us-east-1.elasticbeanstalk.com/',
+    };
+    
+    componentDidMount(){
+        this.fetchNews();
+    }
+
+    fetchNews = async () => {
+        const response = await fetch(`${this.state.url}alcaldia`);
+        const data = await response.json();
+        this.setState({
+            data : data,
+        });
+    }
     render(){
         return(   
             <div id="copyright">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 brand">
-                            <span>Alcaldía de Generica - Nit: 00000000 </span>
-                            <a href="#">Políticas de seguridad de la información y protección de datos
-                            personales</a>
+                            <span>{this.state.data.map((alcaldia) => alcaldia.nombre)} - Nit: 00000000 </span>
+                            <Link to="/" >Políticas de seguridad de la información y protección de datos
+                            personales</Link>
                             <span>Todos los Derechos Reservados © 2021</span>
                         </div>
 
@@ -25,22 +41,22 @@ class Copyright extends React.Component{
                                     <span>Síguenos en:</span>
                                 </li>
                                 <li className="facebook">
-                                    <a className="flex-all-center">
+                                    <a href="https://es-la.facebook.com/AlcaldiaCucuta/" target="_blank" className="flex-all-center">
                                         <span class="icon icon33 fa"><FaFacebookF/></span>
                                     </a>
                                 </li>
                                 <li className="twitter">
-                                    <a className="flex-all-center">
+                                    <a href="https://twitter.com/AlcaldiaCucuta" target="_blank" className="flex-all-center">
                                         <span class="icon icon33 fa"><FaTwitter/></span>
                                     </a>
                                 </li>
                                 <li className="youTube">
-                                    <a className="flex-all-center">
+                                    <a href="https://www.youtube.com/channel/UCF6K7KJees9LNllhXgI7tzA" target="_blank" className="flex-all-center">
                                         <span class="icon icon33 fa"><FaYoutube/></span>
                                     </a>
                                 </li>
                                 <li className="instagram">
-                                    <a className="flex-all-center">
+                                    <a href="https://www.instagram.com/alcaldiacucuta/" target="_blank" className="flex-all-center">
                                         <span class="icon icon33 fa"><FaInstagram/></span>
                                     </a>
                                 </li>
