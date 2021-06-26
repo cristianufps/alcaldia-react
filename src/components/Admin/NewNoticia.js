@@ -1,6 +1,4 @@
-
 import React from 'react';
-import { FcNews } from "react-icons/fc";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Row, Col, Form, Input, Label, FormGroup, Button } from 'reactstrap';
 import '../styles/NewNoticia.css';

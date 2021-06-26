@@ -5,14 +5,30 @@ import { Link } from 'react-router-dom';
 import logoAlcaldia from '../images/escudo.png';
 import { FaHome } from "react-icons/fa";
 class Header extends React.Component{
+    state = {
+        data: [],
+        url: 'http://seminarioalcaldia-env.eba-ws2bjadt.us-east-1.elasticbeanstalk.com/',
+    };
+    
+    componentDidMount(){
+        this.fetchNews();
+    }
+
+    fetchNews = async () => {
+        const response = await fetch(`${this.state.url}alcaldia`);
+        const data = await response.json();
+        this.setState({
+            data : data,
+        });
+    }
     render(){
         return(
             <React.Fragment>
                 <nav class="navbar navbar-light nav-dark">
                     <div class="container">
-                        <span className="alcaldia">El sitio oficial de la Ciudad de Cúcuta</span>
+                        <span className="alcaldia">El sitio oficial de la {this.state.data.map((alcaldia) => alcaldia.nombre)}</span>
                         <a class="navbar-brand" href="#">
-                            <img className="logo-alcaldia " src={logoAlcaldia} alt=""  class="d-inline-block align-text-top"/>
+                            <img className="logo-alcaldia " src={this.state.data.map((alcaldia) => alcaldia.logo)} alt=""  class="d-inline-block align-text-top"/>
                         </a>
                     </div>
                 </nav>

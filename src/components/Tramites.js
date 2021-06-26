@@ -3,7 +3,7 @@ import React from 'react';
 import { FaCar } from "react-icons/fa";
 import { FaHome } from "react-icons/fa";
 import { FaCalculator } from "react-icons/fa";
-
+import { Link } from 'react-router-dom';
 import './styles/Tramites.css';
 class Tramites extends React.Component{
     render(){
@@ -18,17 +18,20 @@ class Tramites extends React.Component{
                             <ul class="nav justify-content-center">
                                 <li class="nav-item text-center">
                                     <span className="mb-2 service-icon flex justify-center"><FaCalculator color="#215A9A" fontSize="4em"></FaCalculator></span>
-                                    <a class="nav-link" href="#">Impuestos</a>
+                                    <Link to="/Servicios" class="nav-link" >Impuestos</Link>
                                 </li>
                                 <li class="nav-item text-center">
                                     <span className="mb-2 service-icon flex justify-center"><FaHome color="#215A9A" fontSize="4em"></FaHome></span>
-                                    <a class="nav-link" href="#">Catastro</a>
+                                    <Link to="/Servicios" class="nav-link">Catastro</Link>
                                 </li>
                                 <li class="nav-item text-center">
                                     <span className="mb-2 service-icon flex justify-center"><FaCar color="#215A9A" fontSize="4em"></FaCar></span>
-                                    <a class="nav-link" href="#">Movilidad</a>
+                                    <Link to= "/Servicios" class="nav-link">Movilidad</Link>
                                 </li>
                             </ul>
+                        </div>
+                        <div className="button_view_more">
+                            <Link to="/Servicios" className="btn btn-primary">Ver más</Link>
                         </div>
                     </div>
                 </div>

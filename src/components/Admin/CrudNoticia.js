@@ -2,7 +2,7 @@ import React from 'react';
 import { FaEdit }  from "react-icons/fa";
 import { FaTrashAlt }  from "react-icons/fa";
 import { FaPlusCircle }  from "react-icons/fa";
-import { Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import '../styles/CrudNoticia.css';
 
 class CrudNoticia extends React.Component{
