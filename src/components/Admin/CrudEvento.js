@@ -13,7 +13,7 @@ class CrudEvento extends React.Component{
     }
     render(){
         return(
-<div>
+            <div>
                 <div class="container-fluid pt-4">
                     <div class="row">
                         <div class="table-responsive col-md-8 offset-md-2"> 
