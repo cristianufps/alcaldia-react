@@ -1,8 +1,6 @@
 import React from 'react';
 import eventos from '../../jsons/Eventos_Semana.json';
-import { FaEdit }  from "react-icons/fa";
-import { FaTrashAlt }  from "react-icons/fa";
-import { FaPlusCircle }  from "react-icons/fa";
+import { FaEdit, FaTrashAlt, FaPlusCircle }  from "react-icons/fa";
 import '../styles/CrudEvento.css';
 
 class CrudEvento extends React.Component{
@@ -14,17 +12,17 @@ class CrudEvento extends React.Component{
     render(){
         return(
             <div>
-                <div class="container-fluid pt-4">
-                    <div class="row">
-                        <div class="table-responsive col-md-8 offset-md-2"> 
-                        <div class="row">
-                                <div class="col"><h2>Añadir Nuevo Evento</h2></div>
-                                <div class="col">
+                <div className="container-fluid pt-4">
+                    <div className="row">
+                        <div className="table-responsive col-md-8 offset-md-2"> 
+                        <div className="row">
+                                <div className="col"><h2>Añadir Nuevo Evento</h2></div>
+                                <div className="col">
                                     <a id="create-icon" href="/Admin/NewEvento"><FaPlusCircle/></a>
                                 </div>
                             </div>
-                            <table class="table pt-4 text-center ">
-                                <thead class="thead-dark">
+                            <table className="table pt-4 text-center ">
+                                <thead className="thead-dark">
                                     <tr>
                                         <th scope="col">ID</th>
                                         <th scope="col">Fecha</th>

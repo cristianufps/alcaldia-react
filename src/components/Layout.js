@@ -6,9 +6,9 @@ import Footer from './Footer';
 function Layout(props){
     return(
         <React.Fragment>
-            <Header />
+            {/* <Header /> */}
             {props.children}
-            <Footer />
+            {/* <Footer /> */}
         </React.Fragment>
     )
 }
