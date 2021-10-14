@@ -23,22 +23,23 @@ class Login extends React.Component {
         [e.target.name]: e.target.value,
       },
     });
-    console.log(this.state.formulario);
+    // console.log(this.state.formulario);
   };
   login = async () => {
-    await fetch(
-      "http://seminarioalcaldia-env.eba-ws2bjadt.us-east-1.elasticbeanstalk.com/login",
-      {
-        method: "POST",
-        body: JSON.stringify(this.state.formulario),
-      }
-    )
+    await fetch("http://localhost:8081/login", {
+      method: "POST",
+      body: JSON.stringify(this.state.formulario),
+      // headers: { "Content-Type": "application/json" },
+    })
       .then((response) => {
+        console.log(response);
         if (response.status === 200) {
+          // var token = headers["Authorization"];
           this.setState({
             error: null,
             isError: false,
           });
+          // localStorage.setItem("token", token);
           return response.json();
         } else {
           this.setState({
@@ -48,6 +49,7 @@ class Login extends React.Component {
         }
       })
       .then((a) => {
+        // console.log(a);
         if (!this.state.isError) {
           localStorage.setItem("token", a.token);
           this.props.history.push("/Admin");

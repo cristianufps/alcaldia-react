@@ -7,7 +7,7 @@ import "../styles/Contacto.css";
 class Contacto extends React.Component {
   state = {
     data: [],
-    url: "http://seminarioalcaldia-env.eba-ws2bjadt.us-east-1.elasticbeanstalk.com/",
+    url: "http://localhost:8081/",
   };
 
   componentDidMount() {

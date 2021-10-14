@@ -2,12 +2,12 @@ import React from "react";
 
 import "./styles/Header.css";
 import { Link } from "react-router-dom";
-// import logoAlcaldia from "../images/escudo.png";
+import logoAlcaldia from "../images/escudo.png";
 import { FaHome } from "react-icons/fa";
 class Header extends React.Component {
   state = {
     data: [],
-    url: "http://seminarioalcaldia-env.eba-ws2bjadt.us-east-1.elasticbeanstalk.com/",
+    url: "http://localhost:8081/",
   };
 
   componentDidMount() {
@@ -27,13 +27,13 @@ class Header extends React.Component {
         <nav className="navbar navbar-light nav-dark">
           <div className="container">
             <span className="alcaldia">
-              El sitio oficial de la{" "}
+              El sitio oficial de{" "}
               {this.state.data.map((alcaldia) => alcaldia.nombre)}
             </span>
             <a className="navbar-brand" href="#">
               <img
                 className="logo-alcaldia "
-                src={this.state.data.map((alcaldia) => alcaldia.logo)}
+                src={logoAlcaldia}
                 alt=""
                 className="d-inline-block align-text-top"
               />

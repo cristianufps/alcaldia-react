@@ -1,17 +1,17 @@
-import React from 'react';
+import React from "react";
 
-import './styles/Footer.css';
-import Copyright from './Footer/Copyright';
-import Contacto from './Footer/Contacto';
-import Boletin from './Footer/Boletin';
-class Footer extends React.Component{
-    render(){
-        return(   
-            <React.Fragment>
-                <Boletin></Boletin>
-                <Contacto></Contacto>
-                <Copyright></Copyright>
-                {/* <div className="container-fluid footer_top">
+import "./styles/Footer.css";
+import Copyright from "./Footer/Copyright";
+import Contacto from "./Footer/Contacto";
+import Boletin from "./Footer/Boletin";
+class Footer extends React.Component {
+  render() {
+    return (
+      <React.Fragment>
+        <Boletin />
+        <Contacto />
+        <Copyright />
+        {/* <div className="container-fluid footer_top">
                         <p className="special_font"><strong>Suscribase al Boletin Digital</strong></p>
                         <button className="btn btn-primary btn-lg">Suscribirme</button>
                         <p>Desubscribirme</p> 
@@ -62,14 +62,14 @@ class Footer extends React.Component{
                                     <img className="logo" src={twitter} alt="Logo Twitter"></img>
                                     <img className="logo" src={youtube} alt="Logo Youtube"></img>
                                     <img className="logo" src={instagram} alt="Logo Instagram"></img>
-                                </div>                               
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div> */}
-            </React.Fragment>
-        );
-    }
+      </React.Fragment>
+    );
+  }
 }
 
 export default Footer;
